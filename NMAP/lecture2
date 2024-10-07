@@ -1,0 +1,14 @@
+nmap is a reconnaise tool.
+nmap is a noisy scanner and easily detectable by firewalls. But how to do it queity matters
+nmap scan of multiple address
+ search major ip block
+by nirsoft   
+* choose any location and run an who is +ip address of target on google
+#videos 2
+ scanning for open ports, by defaults nmap will scan 65000 oport
+1. nmap -sn <target-ip>
+ping command to check host are up by sending icmp echo request
+2. nmap -p 80,443 <target-ip>
+to scan specific ports on a target
+3. nmap -sV <target-ip>
+servrice version detection, version of service running

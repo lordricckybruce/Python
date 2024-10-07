@@ -1,0 +1,69 @@
+Networking summary
+
+private ip address are those assigned to devices that are only connected to LAN, but cannot be used for internet connection.
+DHCP dynamic host configuration protocol is responsible for assigning ip address dynamically, we dont have constant ip address
+NAT network address translation covers ip address to external public address to be able to route the internet and gives feedback by coverting the external public ip address to the private so that packets are recieved
+Ports are sub-address, while ip is the address, think this way, ip address is name of a street while port is the building number/apartment number, and 2^16 == 65,536 ports.
+Protocols are agreed ways to communicate such as IP, TCP,UDP,FTP,HTTP,SMTP.
+
+IP defines source and destination IP address of a packet as it traverse the inetrnet
+
+NETWORK TOPOLOGY
+1. Bus: Every device is connected together in a single line, if ntework is busy it become congested
+2. star: makes use of a server, and if one client is broken, does not affect the rest
+3. Ring: sends packet around the ring and only client the packet is intended for can grab from the ring. It is inexpensive and simple but if broken all cliwnt cannot recieve.
+4. Mesh: many connection between each device on the network
+
+#OSI
+osi -- open system interconnection -- 
+7 - APPLICATION: http,ftp,irc,ssh,dns --  EXPLOIT
+6 - PRESENTATION -- ftp,mpeg,jpeg --  PHISHING 
+5 - SESSION -- api,sockets -- HIJACKING
+4 - TRANSPORT -- tcp,udp -- RECONNAISSANCE
+3 - NETWORK -- packets,ip,icmp,ipsec,igmp -- MITM
+2 - DATA LINK -- frames,ethernet,ppp,switch,bridge -- SPOOFING
+1  - PHYSICAL -- cables,hubs,wireless,repeaters -- SNIFFING
+
+chapter2 subnetting and cidr notation
+subnetting lets network adminstrator use 32bits in ipv4
+subnet is a network within a network
+CIDR classless inter-domain routing notation represents ip address using(/) such as 192.168.1.0/24 (where 24 represents number of bits)
+icmp internet classless message protocol responsible for error messages 
+
+chapter3 __ Network analysis
+ping helps to analyze if another system is live on my network or the internet
+ping [dn] or [ip] ping paypal.com ping 192.168.1.0
+netstat - network statistics is to lnow number of devices your network has connected to netstat -a to veiw all or netstat (ip)
+network sniffer can analyze a packet ,protocol or network traffic.
+
+
+Chapter4 
+FIRE WALLS
+a fire wall is a subsystem on a computer that blocks certain network traffic from going into or out of the computer and either be soft or harware based.
+hardware based are to protect a network and computers on it, softeware are protect system hosting it.
+iptables are flexibe firewalls built for linux
+For hacking wifi using aircrack
+1. airmon-ng start wlan0 to set wifi on monitor mode
+2. airodump-ng wlan0mon to scan for traffic
+3. airodump-ng -c(*) -a -bssid <mac> -w {file name} wlan0mon
+4. ifconfig wlan0 down
+5. macchanger -m <mac> wlan0
+6, aireplay-ng --deauth 10 -a mac wlan0mon
+
+
+Chapter7
+ADDRESS RESOLUTION PROTOCOL(ARP)
+arp uses message format over the link layer and network layers (layer2 - datalink and layer3 - Network of the osi model). The message contains a request or one response,
+imagine a computer1 wants to send a request to computer2 without knowing its ID, it uses arp table and if it can't find the computer2 ID, it uses arp to send signals and computer 2 responds. the 
+command for arp is arp -a
+
+SOCKET PROGRAMMING
+there 3 types of socket tcp-transmission control protocol, udp user datagram protocol, raw or ip socket
+network socket is a combination of ip address and extra number on our computer which represents appllication
+
+socket documentation in python are 
+docket family IF_INET-ip type ipv4 IF_INET6 ipv6, sockstream is the type - tcp
+socket.socket
+bind
+accept
+listen

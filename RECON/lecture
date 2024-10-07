@@ -1,0 +1,28 @@
+ASN - autonomous system number
+represents a block of ip address connected to one entity, the entity can be a domain name and ip address mapped to it
+when u get asn of google u can access to it. <study on: cloudflare>
+there are two ways to get asn
+1. browser : bgp.he.net
+2. commandline
+─$ curl -s https://api.bgpview.io/search?query_term=google | jq
+using nmap
+$ nmap --script targets-asn --script-args targets-asn.asn=AS8945
+research on GObuster and how it works.
+
+rapid dns.io : reverses ip lookup; gives all domain name marked to that ip address
+reverse lookup is putting ip address to get domain name
+yougetsignal.com: to know whose calling
+viewdns.info
+amass intel -org (domain name)
+amsss intel -asn(asn number; u can get asn number from bgp.he.net)
+
+amass intel -whois -d paypal.com
+#RECON is about gathering information
+1. purpose 
+2. the users
+3. how the application generate revenue
+4. for what purpose do the users select the application over competitors
+5. who are the competitors
+6. function of the application
+web application reconnaissance is about collecting data and building model that coombines a wen application's technical and functional details in a way that fully allows me to understand the purpose and usage of a web application.
+recon is explorative data gathering

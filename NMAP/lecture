@@ -1,0 +1,65 @@
+nmap known as network mapper. In network security u must gather information about your target.
+nmap is used for network information gathering
+therse two types of information gathering
+1 passivve: without interaction of database is the given firm
+2. active: interacting with company database directly
+
+nmap is used for passive operation but though there are some active, and active is interacting with the company.
+nmap is for network, such as server and nmap is readymade tool built with bash 15%, 80% python and C 5%.
+
+using $ man nmap shows all about nmap
+
+#ddo research nmap scriptting engine
+
+you can do network discovery, port scanning, operating system detection, version detection, vulnubility scanning .
+
+to install nmap sudo apt install nmap, sudo snap install nmap
+for mac ox brew install nmap
+for windown you download
+
+ping scan: send icmp to host to see if host is up
+th orign of pinng is socket. Using agrumets lowercase s and uppecase P.
+nmap -sP domain name(paypal.com
+
+tcp scan: Checks for open ports and its a two way comunication.
+nmap -sT paypal.com
+
+Syn scan: Checks for seen ack. nmap -sS paypal.com(must run on sudo). syn scan is always faster.
+
+scanning for udp is not reliable, u chage T to U
+nmap -sU paypal
+
+Os Scan : nmap -sO paypal.com
+
+version scan: using V to scan services that are running and check for vulnerbilities.
+setting timing template for the scan: for setting time in peak request
+and there 6 types 
+0 - paranoid
+1 - sneaky
+2 - polite
+3 - normal
+4 - aggressive
+5 - number
+nmap -T 
+
+# scan for mutliple host in taht address using iR
+nmap -iR 100 paypal.com
+also nmap -v -iR 100 paypal
+
+
+to save in xml format -oX, and  u run
+nmap -oX <file name in xml format= paypal.xml> paypal.com
+
+#For gradeable format, a file that is readable 
+nmap -oG <file name= end in .txt format> paypal.com
+
+#for nmap scriptting engine on a target   #active protocols
+
+nmap -sC paypal.com
+
+
+#to bypass firewalls and ids 
+nmap -ttl 100 paypal.com <ttl == time to leave>
+and mtu to bypass firwall
+nmap --ttl 100 --mtu 1400 paypal.com
+

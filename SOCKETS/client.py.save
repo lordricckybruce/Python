@@ -1,0 +1,7 @@
+#!/bin/python3
+
+import socket
+
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+clinet_socket.connect(('localhost', 8080))
+

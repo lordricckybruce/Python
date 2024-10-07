@@ -1,0 +1,448 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "asns": [],
+    "ipv4_prefixes": [],
+    "ipv6_prefixes": [
+      {
+        "prefix": "2620:121:5000::/48",
+        "ip": "2620:121:5000::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/44",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 44
+      },
+      {
+        "prefix": "2620:121:5000::/40",
+        "ip": "2620:121:5000::",
+        "cidr": 40,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/40",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 40
+      },
+      {
+        "prefix": "2620:121:5000::/48",
+        "ip": "2620:121:5000::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "Lacnic",
+        "parent_prefix": "2803:2d60::/32",
+        "parent_ip": "2803:2d60::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5000::/44",
+        "ip": "2620:121:5000::",
+        "cidr": 44,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/44",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 44
+      },
+      {
+        "prefix": "2620:121:5001::/48",
+        "ip": "2620:121:5001::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "Lacnic",
+        "parent_prefix": "2804:1494::/32",
+        "parent_ip": "2804:1494::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5001::/48",
+        "ip": "2620:121:5001::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/44",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 44
+      },
+      {
+        "prefix": "2620:121:5002::/48",
+        "ip": "2620:121:5002::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/44",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 44
+      },
+      {
+        "prefix": "2620:121:5002::/48",
+        "ip": "2620:121:5002::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "Lacnic",
+        "parent_prefix": "2800:860::/32",
+        "parent_ip": "2800:860::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5020::/43",
+        "ip": "2620:121:5020::",
+        "cidr": 43,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5020::/43",
+        "parent_ip": "2620:121:5020::",
+        "parent_cidr": 43
+      },
+      {
+        "prefix": "2620:121:5040::/42",
+        "ip": "2620:121:5040::",
+        "cidr": 42,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5040::/42",
+        "parent_ip": "2620:121:5040::",
+        "parent_cidr": 42
+      },
+      {
+        "prefix": "2620:121:5040::/48",
+        "ip": "2620:121:5040::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/40",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 40
+      },
+      {
+        "prefix": "2620:121:5041::/48",
+        "ip": "2620:121:5041::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/40",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 40
+      },
+      {
+        "prefix": "2620:121:5042::/48",
+        "ip": "2620:121:5042::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/40",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 40
+      },
+      {
+        "prefix": "2620:121:5043::/48",
+        "ip": "2620:121:5043::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/40",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 40
+      },
+      {
+        "prefix": "2620:121:5044::/48",
+        "ip": "2620:121:5044::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2606:6080::/32",
+        "parent_ip": "2606:6080::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5044::/48",
+        "ip": "2620:121:5044::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "Lacnic",
+        "parent_prefix": "2803:c390::/32",
+        "parent_ip": "2803:c390::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5044::/48",
+        "ip": "2620:121:5044::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/40",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 40
+      },
+      {
+        "prefix": "2620:121:5050::/44",
+        "ip": "2620:121:5050::",
+        "cidr": 44,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:1d6::/32",
+        "parent_ip": "2620:1d6::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5050::/44",
+        "ip": "2620:121:5050::",
+        "cidr": 44,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5000::/40",
+        "parent_ip": "2620:121:5000::",
+        "parent_cidr": 40
+      },
+      {
+        "prefix": "2620:121:5050::/44",
+        "ip": "2620:121:5050::",
+        "cidr": 44,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "Lacnic",
+        "parent_prefix": "2803:bc40::/32",
+        "parent_ip": "2803:bc40::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5070::/48",
+        "ip": "2620:121:5070::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "Lacnic",
+        "parent_prefix": "2800:bf0::/32",
+        "parent_ip": "2800:bf0::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5070::/48",
+        "ip": "2620:121:5070::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "Lacnic",
+        "parent_prefix": "2804:2fdc::/32",
+        "parent_ip": "2804:2fdc::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5071::/48",
+        "ip": "2620:121:5071::",
+        "cidr": 48,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "Lacnic",
+        "parent_prefix": "2803:2540::/32",
+        "parent_ip": "2803:2540::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2620:121:5080::/41",
+        "ip": "2620:121:5080::",
+        "cidr": 41,
+        "name": "SNAPCHATV6-1",
+        "country_code": "US",
+        "description": "Snapchat, Inc",
+        "email_contacts": [
+          "noc@snapchat.com"
+        ],
+        "abuse_contacts": [
+          "noc@snapchat.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2620:121:5080::/41",
+        "parent_ip": "2620:121:5080::",
+        "parent_cidr": 41
+      }
+    ],
+    "internet_exchanges": []
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "34.44 ms"
+  }
+}
